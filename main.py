@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 
-app = FastAPI()
+app = FastAPI(title="Book List API")
 
 books = []
 counter = 1
