@@ -1,3 +1,5 @@
+# Minor update for reviewer validation
+
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI(title="Book List API")
